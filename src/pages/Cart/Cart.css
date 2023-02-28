@@ -1,0 +1,25 @@
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #fffaed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .icon-close {
+    width: 25px;
+    cursor: pointer;
+  }
+
+  .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 20px;
+  }

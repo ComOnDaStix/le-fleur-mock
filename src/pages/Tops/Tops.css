@@ -1,0 +1,57 @@
+.collection-container {
+  margin: 0 auto;
+  max-width: 65.75rem;
+  position: relative;
+  z-index: 0;
+  margin-top: 8%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+
+  padding: 0;
+}
+
+.item {
+  margin: 0 1px;
+  position: relative;
+}
+
+img {
+  width: 300px;
+}
+
+.item h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background-color: transparent;
+  margin: 0%;
+  width: 100%;
+ 
+}
+
+.item:hover h2 {
+  opacity: 1;
+}
+
+a img {
+  padding: 12px;
+}
+
+a img:hover {
+  opacity: 0.7;
+  transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
+}
+
